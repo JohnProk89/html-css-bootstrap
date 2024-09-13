@@ -1,0 +1,71 @@
+<!-- Απαγορεύται η στοίχιση σελίδας μέσα σε table, να αποφεύγεται η παρακάτω επίλυση -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>
+    Φόρμα Πληρωμής
+  </h1>
+  <p>
+    Τα υποχρεωτικά πεδία ακολουθούνται από
+    <abbr title="Required field">*</abbr>
+  </p>
+  <form>
+    <h2>
+      Προσωπικά Στοιχεία
+    </h2>
+    <table>
+      <tr>
+        <td>
+        </td>
+        <td>
+          <fieldset>
+            <legend>Title</legend>
+            <input type="radio" name ="title">
+            <label>Mr.</label> 
+            <br>
+            <input type="radio" name ="title">
+            <label>Mrs.</label> 
+            <br>
+            <input type="radio" name ="title">
+            <label>Dr.</label>
+          </fieldset>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="name">Name:<abbr title="Required field">*</abbr></label>
+        </td>
+        <td>
+          <input type="text" id="name">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="email">E-mail:<abbr title="Required field">*</abbr></label>
+        </td>
+        <td>
+          <input type="email" id="email">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="password">Password:<abbr title="Required field">*</abbr></label>
+        </td>
+        <td>
+          <input type="password" id="password">
+        </td>
+      </tr>
+    </table>
+    <h2>
+      Πληροφορίες Πληρωμής
+    </h2>
+    <input type="submit">
+  </form>
+</body>
+</html>

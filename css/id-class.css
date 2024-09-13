@@ -1,0 +1,19 @@
+body {
+  background-color: gainsboro;
+}
+
+.aueb-logo {
+  width: 800px;
+}
+
+img.aueb-logo {
+  height: auto;
+}
+
+.aueb-text{
+  color: blue;
+}
+
+p.aueb-text {
+  color: white;
+}

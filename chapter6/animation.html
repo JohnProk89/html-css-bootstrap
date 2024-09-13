@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/animation.css">
+</head>
+<body>
+    <div class="container">
+        <div class="item-abs"></div>
+    </div>
+
+    <script>
+        const debounceTimeout = setInterval(moveBox, 10)
+        let topPos = 10;
+
+        function moveBox() {
+            const box = document.querySelector('.item-abs')
+            
+            box.style.backgroundColor = 'blue'
+
+            topPos += 5
+            box.style.top = topPos + 'px'
+            if (topPos >= 380) {
+                clearInterval(debounceTimeout)
+            }
+
+            console.log("Offset from top: " + topPos)
+        }
+    </script>
+</body>
+</html>

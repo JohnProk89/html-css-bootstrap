@@ -1,0 +1,48 @@
+abbr {
+  color: red;
+}
+
+.container {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid gray;
+  border-radius: 2%;
+  padding: 2%;
+}
+
+.padding {
+  padding-bottom: 2%;
+}
+
+.title {
+  padding-bottom: 2%;
+  padding-right: 2%;
+}
+
+/* This need changing */
+.set-right {
+  padding-bottom: 2%;
+  text-align: right;
+  padding-right: 2%;
+}
+
+.width {
+  width: 50%;
+}
+
+.card {
+text-align: center;
+}
+
+/* Τα πεδία Input 50% width του parent div
+Επίσης τα κολλάμε δεξιά, κάπως
+Το parent του input θα έχει 50% width κάποιου άλλου 
+div parent
+margin-right: 5%
+margin left: auto*/
+
+.set-middle {
+  margin: 5%;
+  text-align: center;
+}

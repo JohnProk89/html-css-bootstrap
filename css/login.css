@@ -1,0 +1,65 @@
+.background {
+  background-color: #6495ed;
+  width: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+}
+
+.container {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  padding-top: 5px;
+  text-align: center;
+  color: gray;
+  background-color: white;
+  border-radius: 10px;
+  font-family:sans-serif;
+}
+
+.button {
+  border-radius: 10px;
+  width: 90%;
+  height: auto;
+  background-color: #6495ed;
+  padding: 10px;
+  color: white;
+}
+
+.form {
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.margin {
+  margin: 20px 20px 20px 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.input {
+  padding: 10px;
+}
+
+.lost {
+  padding-bottom: 40px;
+}
+
+p {
+  text-align: center;
+}
+
+.lost a {
+  color: gray;
+}
+
+.account {
+  color: white;
+}
+
+.account a {
+  color: white;
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="./home-page.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="header">
+                <img class="img" src="../img/athens.jpg" alt="Logo">
+                <nav>
+                    <div class="big-page-nav">
+                        <ul>
+                            <li><a href="#">Sweet Home</a></li>
+                            <li><a href="#">Of courses</a></li>
+                            <li><a href="#">Canteen</a></li>
+                            <li><a href="#">The Future</a></li>
+                        </ul>
+                    </div>
+                </nav>
+                <div class="hamburger">
+                    <button type="button">&#8801;</button>
+                </div>
+            </div>
+        </header>
+
+        <div class="navbar-toggle">
+            <div class="small-page-nav">
+                <ul>
+                    <li><a href="#">Sweet Home</a></li>
+                    <li><a href="#">Of courses</a></li>
+                    <li><a href="#">Canteen</a></li>
+                    <li><a href="#">The Future</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <main>
+            <div class="main">
+                <h1>Educational Game</h1>
+                <div class="quotes">
+                    <p>Quote1</p>
+                    <p>Quote2</p>
+                </div>
+                <div>
+                    Online Courses
+                </div>
+                <div class="courses">
+                    <ul>
+                    <li><a href="#">Tatabases</a></li>
+                    <li><a href="#">Black End</a></li>
+                    </ul>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="footer">
+                Credits
+            </div>
+        </footer>       
+    </div>
+
+    <script>
+        const toggleBtn = document.querySelector('.hamburger');
+        const navBarToggle = document.querySelector('.navbar-toggle');
+
+        toggleBtn.addEventListener('click', function() {
+            console.log("Hello Button");
+            navBarToggle.classList.toggle('show');
+        })
+    </script>
+</body>
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="../css/form.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>
+      Φόρμα Πληρωμής
+    </h1>
+    <p>
+      Τα υποχρεωτικά πεδία ακολουθούνται από <abbr title="Required field">*</abbr>
+    </p>
+
+  <form>
+
+    <div>
+      <h2>
+        Προσωπικά Στοιχεία
+      </h2>
+      <div class="title">
+        <fieldset style="width: 45%; margin-left: auto;">
+          <legend>
+            Title
+          </legend>
+          <input type="radio" name="title" id="mr"> 
+          <label for="mr">Mr.</label> <br>
+          <input type="radio" name="title" id="mrs"> 
+          <label for="mrs">Mrs.</label> <br>
+          <input type="radio" name="title" id="dr">
+          <label for="dr">Dr.</label>
+        </fieldset>
+      </div>
+      <div class="set-right">
+        <label for="name">Name:
+          <abbr title="Required field">*</abbr>
+        </label>
+        <input type="text" class="width">
+      </div>
+      <div class="set-right">
+        <label for="email">E-mail:
+          <abbr title="Required field">*</abbr>
+        </label>
+        <input type="email" class="width">
+      </div>
+      <div class="set-right">
+        <label for="password">Password:
+          <abbr title="Required field">*</abbr>
+        </label>
+        <input type="password" class="width">
+      </div>
+    </div>
+
+      <h2>
+        Πληροφορίες Πληρωμής
+      </h2>
+      <div class="padding card">
+        <label for="card-type">Card type:</label>
+        <select id="card-type">
+          <option value="1">Visa</option>
+          <option value="2">Credit Card</option>
+        </select>
+      </div>
+      <div class="set-right">
+        <label for="card-number">Card number:
+          <abbr title="Required field">*</abbr>
+        </label>
+        <input type="number" class="width">
+      </div>
+      <div class="set-right">
+        <label for="expiration-date" >Expiration date:
+          <abbr title="Required field">*</abbr>
+        </label>
+        <input type="text" placeholder="MM/YY" class="width">
+      </div>
+      <div class="set-middle">
+        <input type="submit" value="Προχωρήστε στην πληρωμή">
+      </div>
+  </form>
+</div>
+</body>
+</html>

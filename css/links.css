@@ -1,0 +1,27 @@
+/* LoVe Fears HAte
+Specific order: 
+Link, Visited, Focus, Hove, Active
+*/
+
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  color: brown;
+}
+
+a:focus {
+  outline: none;
+  background-color: yellow;
+}
+
+a:hover {
+  background-color: grey;
+}
+
+a:active {
+  background-color: green;
+  color: white
+}
