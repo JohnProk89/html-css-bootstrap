@@ -1,2 +1,4 @@
 # html-css-bootstrap
-Code written during CF6
+Repo of Coding Factory 6 re-educational program (2024-3 to 2024-12)
+For my personal educational use
+Code written during class and homework exercises

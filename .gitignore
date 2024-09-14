@@ -1,1 +1,6 @@
+.idea/
+.git/
+out/
+**/*.iml
+**/*.log
 *.mp4
